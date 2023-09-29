@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             val dolar = String.format("%.2f",real * 0.2)
 
             binding.txtResultado.text = "$ $dolar"
+            //teste
         }
     }
 }
