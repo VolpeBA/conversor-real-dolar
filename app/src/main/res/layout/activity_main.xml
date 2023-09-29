@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="58dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_converter"
+        app:layout_constraintStart_toStartOf="@+id/button_converter"
+        app:layout_constraintTop_toBottomOf="@+id/button_converter" />
+
+    <Button
+        android:id="@+id/button_converter"
+        android:layout_width="170dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="58dp"
+        android:text="Converter"
+        app:layout_constraintEnd_toEndOf="@+id/edit_real"
+        app:layout_constraintStart_toStartOf="@+id/edit_real"
+        app:layout_constraintTop_toBottomOf="@+id/edit_real" />
+
+    <EditText
+        android:id="@+id/edit_real"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Insira um valor em real"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
