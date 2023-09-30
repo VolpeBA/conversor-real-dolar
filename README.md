@@ -10,4 +10,4 @@
 
 # Demonstração
 
-<image src="![GIF do projeto](https://github.com/VolpeBA/conversor-real-dolar/assets/53006149/47a1c2ff-6b70-4ee0-bd75-2beeb9217a62)" width="300px">
+<image src="https://github.com/VolpeBA/conversor-real-dolar/assets/53006149/47a1c2ff-6b70-4ee0-bd75-2beeb9217a62" width="250px">
