@@ -10,6 +10,6 @@
 
 # Demonstração
 <div align="center">
-<image src="https://github.com/VolpeBA/conversor-real-dolar/assets/53006149/f722ff49-2434-4249-93d4-599b228825c3" width="320px" center>
+<image src="https://github.com/VolpeBA/conversor-real-dolar/assets/53006149/8fd6bac8-786f-42ca-8f5a-09fe9702b324" width="320px" center>
 
 </div>
